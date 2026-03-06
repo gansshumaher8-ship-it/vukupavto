@@ -201,7 +201,7 @@ export default function Home() {
             </div>
           </div>
           <div className="hero-image">
-            <img src="https://images.unsplash.com/photo-1542282088-fe8426682b8f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Срочный выкуп авто" loading="lazy" />
+            <img src="/images/hero-car.jpg" alt="Срочный выкуп авто" loading="lazy" />
           </div>
         </div>
       </section>
