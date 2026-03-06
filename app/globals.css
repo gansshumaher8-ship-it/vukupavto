@@ -506,13 +506,24 @@ h3 {
 @media (max-width: 992px) {
     h1 { font-size: 2.5rem; }
     .grid-4, .steps-wrapper { grid-template-columns: repeat(2, 1fr); }
-    .hero { background: var(--bg-light); padding: 60px 0; }
+    .hero {
+        padding: 60px 0;
+        background-position: center;
+    }
+    .hero-content {
+        padding: 28px 22px;
+        border-radius: 16px;
+    }
     .calc-wrapper { flex-direction: column; text-align: center; }
 }
 
 @media (max-width: 768px) {
     .header-info, .btn-outline { display: none; }
     h1 { font-size: 2rem; }
+    .hero {
+        min-height: 520px;
+        background-position: 65% 50%;
+    }
     .hero-actions { flex-direction: column; }
     .grid-3 { grid-template-columns: repeat(2, 1fr); }
     .footer-container { grid-template-columns: 1fr; }
@@ -522,4 +533,12 @@ h3 {
     .grid-4, .grid-3, .steps-wrapper { grid-template-columns: 1fr; }
     h1 { font-size: 1.75rem; }
     .hero-benefits li { font-size: 1rem; }
+    .hero {
+        min-height: 520px;
+        background-position: 70% 50%;
+    }
+    .hero-content {
+        padding: 22px 18px;
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0.92), rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.15));
+    }
 }
