@@ -1,0 +1,16 @@
+meta:
+  environment: nodejs
+  toolchain:
+    name: npm
+    version: 20
+
+build:
+  buildScript: build
+  artifacts:
+    - .next
+    - public
+    - package.json
+    - package-lock.json
+
+run:
+  scriptName: start
